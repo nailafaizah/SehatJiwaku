@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DaftarDokter">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/atas2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/aa" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="587dp"
+        android:src="@drawable/dok" />
+
+    <ImageButton
+        android:id="@+id/btn_dokter1"
+        android:layout_width="354dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="496dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/dokter1" />
+
+    <ImageButton
+        android:id="@+id/btn_dokter2"
+        android:layout_width="354dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="399dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/dokter2" />
+
+    <ImageButton
+        android:id="@+id/btn_dokter3"
+        android:layout_width="354dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="302dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/dokter3" />
+
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="58dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="325dp"
+        android:layout_marginBottom="5dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_home" />
+
+    <ImageButton
+        android:id="@+id/btn_keluar"
+        android:layout_width="58dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/logout" />
+
+    <ImageButton
+        android:id="@+id/btn_cari"
+        android:layout_width="58dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_search" />
+
+    <ImageButton
+        android:id="@+id/btn_penyakit"
+        android:layout_width="58dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/stet" />
+
+</RelativeLayout>

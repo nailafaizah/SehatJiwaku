@@ -1,0 +1,8 @@
+include ':opening1'
+include ':daftar'
+include ':login'
+include ':opening3'
+include ':opening2'
+include ':opening'
+include ':app'
+rootProject.name = "Sehat Jiwaku"

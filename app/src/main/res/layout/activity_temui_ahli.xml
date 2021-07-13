@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TemuiAhli">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/atas2" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="558dp"
+        android:text=" Nama Peserta"
+        android:textColor="#696969"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nama_peserta"
+        android:layout_width="372dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="503dp"
+        android:background="#E6E6FA"
+        android:hint=" Nama Peserta"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="464dp"
+        android:text=" Pilih Tanggal Daftar"
+        android:textColor="#696969"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_datepicker"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="400dp"
+        android:background="#E6E6FA"
+        android:text="Pilih Tanggal"
+        android:textAllCaps="false"
+        android:textColor="#a9a9a9" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="360dp"
+        android:text=" Jam Praktik   :   08:00 - 14:00"
+        android:textColor="#696969"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="348dp"
+        android:layout_marginBottom="306dp"
+        android:text=" *"
+        android:textColor="#dc143c"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="231dp"
+        android:gravity="fill_vertical"
+        android:text=" Pendaftaran melalui aplikasi dibuka 24 jam sebelum jam buka operasional dan ditutup 1 jam sebelum jam tutup operasional"
+        android:textColor="#dc143c"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="174dp"
+        android:text=" Masukkan Keluhan Anda"
+        android:textColor="#696969"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="121dp"
+        android:inputType="textShortMessage" />
+
+    <Button
+        android:id="@+id/daftar_periksa"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="24dp"
+        android:background="#00008B"
+        android:text="Daftar Pelayanan"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Sehat Jiwaku</string>
+
+    <string name="judul_pendengaran">Halusinasi Pendengaran</string>
+    <string name="pendengaran">Halusinasi Pendengaran adalah jenis halusinasi yang menunjukkan adanya persepsi yang salah yang berasal dari suara, musik, bunyi, kebisingan.
+        Penderita merasa mendengar suara-suara meskipun tidak adanya stimulus pendengaran, hal ini adalah gejala yang sering dialami dari penderita halusinasi pendengaran.
+        Suara yang didengar dapat diterima di dalam maupun di luar kepalanya. Bahkan gejala yang paling parah dapat diperlihatkan jika penderita mulai menganggap gangguan-gangguan
+        suara tersebut berasal dari luar. Suara tersebut dapat berbentuk suara pria atau wanita, baik yang akrab maupun tidak akrab, pujian maupun kritikan.
+    </string>
+
+    <string name="judul_penglihatan">Halusinasi Penglihatan</string>
+    <string name="penglihatan">
+        Halusinasi Penglihatan adalah jenis halusinasi yang mana penderitanya mengalami persepsi yang salah dalam pandangannya. Halusinasi yang dirasakan dapat terlihat seperti warna, kilatan
+        cahaya, bentuk, dan lainnya, namun terkadang juga dapat berbentuk orang ataupun tokoh-tokoh yang menyerupai manusia. Misalnya saja, seseorang dapat merasakan jika ada orang yang sedang
+        berdiri di belakangnya meskipun kenyataannya tidak ada siapa-siapa.
+    </string>
+
+    <string name="judul_penciuman">Halusinasi Penciuman</string>
+    <string name="penciuman">
+        Halusinasi Penciuman adalah jenis halusinasi yang melibatkan bau-bau yang sebenarnya tidak ada. Bau yang biasanya dirasakan penderita merupakan bau-bau yang tidak menyenangkan,
+        semisal bau muntah, feses, asap, urin, daging busuk, dan lainnya.
+    </string>
+
+    <string name="judul_pengecapan">Halusinasi Pengecapan</string>
+    <string name="pengecapan">
+        Halusinasi Pengecapan merupakan persepsi yang salah tentang rasa. Biasanya ini dikarenakan adanya pengalaman yang tidak menyenangkan sebelumnya. Misalnya saja seseorang
+        yang mengeluh terus menerus merasakan rasa logam. Jenis halusinasi ini biasanya sering terlihat pada gangguan medis, semisal epilepsi dibandingkan pada penderita-penderita
+        pada gangguan mental.
+    </string>
+
+    <string name="judul_perabaan">Halusinasi Perabaan</string>
+    <string name="perabaan">
+        Halusinasi Perabaan membuat penderitanya mengalami persepsi ataupun sensasi palsu mengenai sentuhan ataupun sesuatu hal yang mana terjadi di dalam tubuhnya. Halusinasi sentuhan ini
+        biasanya akan membuat penderitanya merasa jika ada sesuatu yang merangkak pada kulit maupun dibawahnya. Contoh lain dari jenis halusinasi ini adalah perasaan seperti
+        terkena setrum di tubuhnya, merasa sedang disentuh orang lain padahal tidak, dan lainnya.
+    </string>
+
+    <string name="judul_penanganan">Penanganan Halusinasi</string>
+    <string name="satu">1. Penderita dapat membina hubungan saling percaya</string>
+    <string name="dua">2. Penderita dapat mengenal halusinasi nya</string>
+    <string name="tiga">3. Penderita dapat mengontrol halusinasi nya</string>
+    <string name="empat">4. Penderita mendapat dukungan keluarga dalam mengontrol halusinasinya</string>
+    <string name="lima">5. Penderita dapat memanfaatkan obat dengan baik untuk mengontrol halusinasinya</string>
+</resources>

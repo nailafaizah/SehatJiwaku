@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HasilPendengaran">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:src="@drawable/atas2" />
+
+    <ImageView
+        android:layout_width="367dp"
+        android:layout_height="338dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="291dp"
+        android:src="@drawable/hasil_pendengaran" />
+
+    <ImageButton
+        android:id="@+id/btn_ahli"
+        android:layout_width="167dp"
+        android:layout_height="199dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="88dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/temui_ahli" />
+
+    <ImageButton
+        android:id="@+id/btn_selesai"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-12dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/selesai" />
+
+</RelativeLayout>

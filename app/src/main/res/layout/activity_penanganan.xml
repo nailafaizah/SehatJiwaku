@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Penanganan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/atas2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="625dp"
+        android:text="@string/judul_penanganan"
+        android:textAlignment="center"
+        android:textColor="#4d4d4d"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="560dp"
+        android:justificationMode="inter_word"
+        android:text="@string/satu"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="501dp"
+        android:justificationMode="inter_word"
+        android:text="@string/dua"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="443dp"
+        android:justificationMode="inter_word"
+        android:text="@string/tiga"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="360dp"
+        android:justificationMode="inter_word"
+        android:text="@string/empat"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="276dp"
+        android:justificationMode="inter_word"
+        android:text="@string/lima"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btn_ahli"
+        android:layout_width="167dp"
+        android:layout_height="199dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="45dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/temui_ahli" />
+
+</RelativeLayout>

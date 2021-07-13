@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Daftar">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/atas2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/bawah" />
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="530dp"
+        android:src="@drawable/logo_splash" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="439dp">
+
+        <EditText
+            android:id="@+id/nama_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/nama"
+            android:background="#E6E6FA"
+            android:hint="Nama Lengkap"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/nama"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:background="#E6E6FA"
+            android:padding="3dp"
+            android:src="@drawable/user" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="385dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/user"
+            android:background="#E6E6FA"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:background="#E6E6FA"
+            android:padding="3dp"
+            android:src="@drawable/user" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="331dp">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/pass"
+            android:background="#E6E6FA"
+            android:hint="Password"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/pass"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:background="#E6E6FA"
+            android:padding="3dp"
+            android:src="@drawable/pass" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="249dp"
+        android:background="#00008B"
+        android:text="Daftar"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="208dp"
+        android:text="Sudah Punya Akun?" />
+
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="194dp"
+        android:background="@null"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="#00008B" />
+
+</RelativeLayout>
