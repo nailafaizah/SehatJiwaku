@@ -44,11 +44,11 @@ public class HomeAdmin extends AppCompatActivity {
             }
         });
 
-        ImageButton ahli = findViewById(R.id.btn_ahli);
-        ahli.setOnClickListener(new View.OnClickListener() {
+        ImageButton dokter = findViewById(R.id.btn_dokter);
+        dokter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeAdmin.this, DaftarDokter.class);
+                Intent intent = new Intent(HomeAdmin.this, Dokter.class);
                 startActivity(intent);
             }
         });
