@@ -17,9 +17,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="558dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="513dp"
         android:text=" Nama Peserta"
+        android:textColor="#696969"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="605dp"
+        android:text=" Pilih Dokter"
         android:textColor="#696969"
         android:textSize="20sp" />
 
@@ -29,10 +41,22 @@
         android:layout_height="45dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="503dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="456dp"
         android:background="#E6E6FA"
         android:hint=" Nama Peserta"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/nama_peserta2"
+        android:layout_width="372dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="550dp"
+        android:background="#E6E6FA"
+        android:hint=" Pilih Dokter"
         android:inputType="text" />
 
     <TextView
@@ -40,8 +64,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="464dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="416dp"
         android:text=" Pilih Tanggal Daftar"
         android:textColor="#696969"
         android:textSize="20sp" />
@@ -52,8 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="354dp"
         android:background="#E6E6FA"
         android:text="Pilih Tanggal"
         android:textAllCaps="false"
@@ -64,8 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="360dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="314dp"
         android:text=" Jam Praktik   :   08:00 - 14:00"
         android:textColor="#696969"
         android:textSize="20sp" />
@@ -75,8 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="348dp"
-        android:layout_marginBottom="306dp"
+        android:layout_marginEnd="351dp"
+        android:layout_marginBottom="273dp"
         android:text=" *"
         android:textColor="#dc143c"
         android:textSize="20sp" />
@@ -86,8 +110,8 @@
         android:layout_height="108dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="231dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="195dp"
         android:gravity="fill_vertical"
         android:text=" Pendaftaran melalui aplikasi dibuka 24 jam sebelum jam buka operasional dan ditutup 1 jam sebelum jam tutup operasional"
         android:textColor="#dc143c"
@@ -98,8 +122,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="174dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="154dp"
         android:text=" Masukkan Keluhan Anda"
         android:textColor="#696969"
         android:textSize="20sp" />
@@ -109,8 +133,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="121dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="103dp"
         android:inputType="textShortMessage" />
 
     <Button
