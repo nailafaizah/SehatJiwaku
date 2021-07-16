@@ -48,7 +48,7 @@ public class Home extends AppCompatActivity {
         ahli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, DaftarDokter.class);
+                Intent intent = new Intent(Home.this, TemuiAhli.class);
                 startActivity(intent);
             }
         });
