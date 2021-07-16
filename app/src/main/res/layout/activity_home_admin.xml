@@ -32,7 +32,7 @@
         android:src="@drawable/gejala" />
 
     <ImageButton
-        android:id="@+id/btn_ahli"
+        android:id="@+id/btn_dokter"
         android:layout_width="160dp"
         android:layout_height="168dp"
         android:layout_alignParentEnd="true"
@@ -41,7 +41,7 @@
         android:layout_marginBottom="372dp"
         android:background="#FFFFFF"
         android:scaleType="centerInside"
-        android:src="@drawable/ahli" />
+        android:src="@drawable/dokter" />
 
     <ImageButton
         android:id="@+id/btn_info"
