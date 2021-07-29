@@ -41,4 +41,9 @@
     <string name="tiga">3. Penderita dapat mengontrol halusinasi nya</string>
     <string name="empat">4. Penderita mendapat dukungan keluarga dalam mengontrol halusinasinya</string>
     <string name="lima">5. Penderita dapat memanfaatkan obat dengan baik untuk mengontrol halusinasinya</string>
+
+    <string name="test">Digunakan untuk melakukan diagnosa dengan cara mencentang gejala-gejala yang dialami dan menekan tombol Diagnosa untuk melihat hasil diagnosa</string>
+    <string name="ahli">Digunakan untuk melakukan pendaftaran bertemu dengan psikiater secara langsung dengan jadwal yang sudah ditentukan</string>
+    <string name="info">Digunakan untuk memberikan informasi lengkap dari pembuat aplikasi</string>
+    <string name="bantu">Digunakan untuk memberikan informasi tiap halaman yang ada di aplikasi Sehat Jiwaku</string>
 </resources>
