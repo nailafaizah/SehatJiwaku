@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_doctor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/dr_alfredo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#34495e"/>
+
+    <TextView
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:textSize="24sp"
+        android:textColor="#4CAF50"
+        android:layout_below="@id/tv_doctor_name"
+        android:layout_toStartOf="@id/btn_delete"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textSize="24sp"
+        android:textColor="#E91E63"
+        android:layout_below="@id/tv_doctor_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="#95a5a6"
+        android:layout_below="@id/btn_edit"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

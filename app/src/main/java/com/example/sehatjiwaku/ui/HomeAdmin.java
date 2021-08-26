@@ -50,7 +50,7 @@ public class HomeAdmin extends AppCompatActivity {
         dokter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeAdmin.this, Dokter.class);
+                Intent intent = new Intent(HomeAdmin.this, DaftarDokter.class);
                 startActivity(intent);
             }
         });

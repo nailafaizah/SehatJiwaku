@@ -8,11 +8,13 @@
     tools:context=".ui.DaftarDokter">
 
     <ImageView
+        android:id="@+id/atas"
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:src="@drawable/atas2" />
 
     <ImageView
+        android:id="@+id/bawah"
         android:layout_width="match_parent"
         android:layout_height="76dp"
         android:layout_alignParentBottom="true"
@@ -20,47 +22,23 @@
         android:src="@drawable/aa" />
 
     <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/atas"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="26dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="587dp"
         android:src="@drawable/dok" />
 
-    <ImageButton
-        android:id="@+id/btn_dokter1"
-        android:layout_width="354dp"
-        android:layout_height="75dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="496dp"
-        android:background="@null"
-        android:scaleType="centerInside"
-        android:src="@drawable/dokter1" />
-
-    <ImageButton
-        android:id="@+id/btn_dokter2"
-        android:layout_width="354dp"
-        android:layout_height="75dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="399dp"
-        android:background="@null"
-        android:scaleType="centerInside"
-        android:src="@drawable/dokter2" />
-
-    <ImageButton
-        android:id="@+id/btn_dokter3"
-        android:layout_width="354dp"
-        android:layout_height="75dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="302dp"
-        android:background="@null"
-        android:scaleType="centerInside"
-        android:src="@drawable/dokter3" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_above="@id/bawah"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        tools:listitem="@layout/item_doctor"
+        tools:itemCount="3"/>
 
     <ImageButton
         android:id="@+id/btn_home"
@@ -109,5 +87,15 @@
         android:background="@null"
         android:scaleType="centerInside"
         android:src="@drawable/stet" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bawah"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_baseline_add_24"
+        android:contentDescription="@string/button_untuk_tambah_dokter" />
 
 </RelativeLayout>

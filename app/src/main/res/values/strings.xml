@@ -46,4 +46,8 @@
     <string name="ahli">Digunakan untuk melakukan pendaftaran bertemu dengan psikiater secara langsung dengan jadwal yang sudah ditentukan</string>
     <string name="info">Digunakan untuk memberikan informasi lengkap dari pembuat aplikasi</string>
     <string name="bantu">Digunakan untuk memberikan informasi tiap halaman yang ada di aplikasi Sehat Jiwaku</string>
+    <string name="edit">Edit</string>
+    <string name="dr_alfredo">dr. Alfredo</string>
+    <string name="delete">Delete</string>
+    <string name="button_untuk_tambah_dokter">Button untuk tambah dokter</string>
 </resources>
