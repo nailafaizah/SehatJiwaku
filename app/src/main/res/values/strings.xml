@@ -50,4 +50,7 @@
     <string name="dr_alfredo">dr. Alfredo</string>
     <string name="delete">Delete</string>
     <string name="button_untuk_tambah_dokter">Button untuk tambah dokter</string>
+    <string name="nama_gejala">Nama Gejala</string>
+    <string name="nama_penyakit">Nama Penyakit</string>
+    <string name="_1">1.</string>
 </resources>

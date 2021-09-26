@@ -63,5 +63,14 @@ public class HomeAdmin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton gejala = findViewById(R.id.btn_gejala);
+        gejala.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeAdmin.this, DaftarGejala.class);
+                startActivity(intent);
+            }
+        });
     }
 }

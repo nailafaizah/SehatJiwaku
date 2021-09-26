@@ -2,6 +2,7 @@ package com.example.sehatjiwaku.api;
 
 import com.example.sehatjiwaku.model.DoctorModel;
 import com.example.sehatjiwaku.model.GetDoctorResponse;
+import com.example.sehatjiwaku.model.GetGejalaResponse;
 import com.example.sehatjiwaku.model.LoginModel;
 import com.example.sehatjiwaku.model.LoginResponse;
 import com.example.sehatjiwaku.model.PostPutDeleteDoctorResponse;
@@ -30,4 +31,7 @@ public interface ApiService {
 
     @PUT("dokter/{id}")
     Call<PostPutDeleteDoctorResponse> updateDoctor(@Path("id") int id, @Body DoctorModel data);
+
+    @GET("gejala")
+    Call<GetGejalaResponse> getGejala();
 }
