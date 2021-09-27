@@ -1,13 +1,17 @@
 package com.example.sehatjiwaku.ui;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+
+import com.example.sehatjiwaku.R;
 import com.example.sehatjiwaku.api.ApiConfig;
 import com.example.sehatjiwaku.databinding.ActivityFormGejalaBinding;
 import com.example.sehatjiwaku.model.DataGejala;
@@ -82,7 +86,6 @@ public class FormGejala extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Penyakit penyakit = (Penyakit) parent.getSelectedItem();
                 idp = penyakit.getId();
-//                Toast.makeText(FormGejala.this, "Country ID: "+penyakit.getId()+",  Country Name : "+penyakit.getNama(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -96,6 +99,38 @@ public class FormGejala extends AppCompatActivity {
                 createGejala(v);
             }else{
                 updateGejala(v, dataGejala.getIdGejala());
+            }
+        });
+
+        binding.btnHapus.setOnClickListener(v -> {
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+            alertDialogBuilder.setPositiveButton("Yes", (dialog, id) -> {
+                deleteGejala(v, dataGejala.getIdGejala());
+            })
+            .setNegativeButton("Cancel", (dialog, id) -> finish()
+            );
+            alertDialogBuilder.create();
+
+        });
+    }
+
+    private void deleteGejala(View v, String id){
+        Call<PostPutDeleteGejalaResponse> call = ApiConfig.getApiService().deleteGejala(id);
+        call.enqueue(new Callback<PostPutDeleteGejalaResponse>() {
+            @Override
+            public void onResponse(@NotNull Call<PostPutDeleteGejalaResponse> call, @NotNull Response<PostPutDeleteGejalaResponse> response) {
+                assert response.body() != null;
+                Snackbar.make(v, response.body().getMessage(), Snackbar.LENGTH_LONG).show();
+                new Handler().postDelayed(() -> {
+                    Intent i = new Intent(FormGejala.this, DaftarGejala.class);
+                    startActivity(i);
+                    finish();
+                }, 2000);
+            }
+
+            @Override
+            public void onFailure(@NotNull Call<PostPutDeleteGejalaResponse> call, @NotNull Throwable t) {
+                Snackbar.make(v, Objects.requireNonNull(t.getMessage()), Snackbar.LENGTH_LONG).show();
             }
         });
     }
@@ -123,6 +158,24 @@ public class FormGejala extends AppCompatActivity {
     }
 
     private void updateGejala(View v, String id){
+        GejalaModel data = new GejalaModel(idp, binding.etNamaGejala.getText().toString());
+        Call<PostPutDeleteGejalaResponse> call = ApiConfig.getApiService().updateGejala(Integer.parseInt(id), data);
+        call.enqueue(new Callback<PostPutDeleteGejalaResponse>() {
+            @Override
+            public void onResponse(@NotNull Call<PostPutDeleteGejalaResponse> call, @NotNull Response<PostPutDeleteGejalaResponse> response) {
+                assert response.body() != null;
+                Snackbar.make(v, response.body().getMessage(), Snackbar.LENGTH_LONG).show();
+                new Handler().postDelayed(() -> {
+                    Intent i = new Intent(FormGejala.this, DaftarGejala.class);
+                    startActivity(i);
+                    finish();
+                }, 2000);
+            }
 
+            @Override
+            public void onFailure(@NotNull Call<PostPutDeleteGejalaResponse> call, @NotNull Throwable t) {
+                Snackbar.make(v, Objects.requireNonNull(t.getMessage()), Snackbar.LENGTH_LONG).show();
+            }
+        });
     }
 }

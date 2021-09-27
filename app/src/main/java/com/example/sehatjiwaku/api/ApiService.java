@@ -13,6 +13,7 @@ import com.example.sehatjiwaku.model.RegisterResponse;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.PUT;
@@ -39,5 +40,11 @@ public interface ApiService {
 
     @POST("gejala")
     Call<PostPutDeleteGejalaResponse> createGejala(@Body GejalaModel data);
+
+    @PUT("gejala/{id}")
+    Call<PostPutDeleteGejalaResponse> updateGejala(@Path("id") int id, @Body GejalaModel data);
+
+    @DELETE("gejala/{id}")
+    Call<PostPutDeleteGejalaResponse> deleteGejala(@Path("id") String id);
 
 }
