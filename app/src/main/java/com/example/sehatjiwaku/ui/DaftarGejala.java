@@ -3,8 +3,10 @@ package com.example.sehatjiwaku.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.example.sehatjiwaku.adapter.DokterAdapter;
 import com.example.sehatjiwaku.adapter.GejalaAdapter;
@@ -34,6 +36,11 @@ public class DaftarGejala extends AppCompatActivity {
         }
 
         loadListDataGejala();
+
+        binding.fabAddGejala.setOnClickListener(v -> {
+            Intent intent = new Intent(DaftarGejala.this, FormGejala.class);
+            startActivity(intent);
+        });
     }
 
     private void loadListDataGejala(){

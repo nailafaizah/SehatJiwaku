@@ -53,4 +53,7 @@
     <string name="nama_gejala">Nama Gejala</string>
     <string name="nama_penyakit">Nama Penyakit</string>
     <string name="_1">1.</string>
+    <string name="hapus">Hapus</string>
+    <string name="submit">Submit</string>
+    <string name="simpan">Simpan</string>
 </resources>

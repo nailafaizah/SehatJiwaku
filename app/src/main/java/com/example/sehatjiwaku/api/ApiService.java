@@ -1,11 +1,13 @@
 package com.example.sehatjiwaku.api;
 
 import com.example.sehatjiwaku.model.DoctorModel;
+import com.example.sehatjiwaku.model.GejalaModel;
 import com.example.sehatjiwaku.model.GetDoctorResponse;
 import com.example.sehatjiwaku.model.GetGejalaResponse;
 import com.example.sehatjiwaku.model.LoginModel;
 import com.example.sehatjiwaku.model.LoginResponse;
 import com.example.sehatjiwaku.model.PostPutDeleteDoctorResponse;
+import com.example.sehatjiwaku.model.PostPutDeleteGejalaResponse;
 import com.example.sehatjiwaku.model.RegisterModel;
 import com.example.sehatjiwaku.model.RegisterResponse;
 
@@ -34,4 +36,8 @@ public interface ApiService {
 
     @GET("gejala")
     Call<GetGejalaResponse> getGejala();
+
+    @POST("gejala")
+    Call<PostPutDeleteGejalaResponse> createGejala(@Body GejalaModel data);
+
 }

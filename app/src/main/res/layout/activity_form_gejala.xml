@@ -1,24 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.FormGejala"
-    android:orientation="vertical">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/tv_nama_gejala"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Nama Gejala"/>
+        android:text="@string/nama_gejala"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/et_nama_gejala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nama_gejala"/>
 
     <TextView
         android:id="@+id/tv_nama_penyakit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Nama Gejala"/>
+        android:text="@string/nama_penyakit"
+        android:layout_below="@id/et_nama_gejala"/>
 
-</LinearLayout>
+    <Spinner
+        android:id="@+id/sp_penyakit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_nama_penyakit"/>
+
+    <Button
+        android:id="@+id/btn_hapus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/hapus"
+        android:textAllCaps="false"
+        android:layout_above="@id/btn_simpan"/>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/simpan"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
